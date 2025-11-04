@@ -13,11 +13,13 @@ Inside of your Astro project, you'll see the following folders and files:
 ```text
 /
 ├── public/
+   └── styles/      # Custom CSS / Bootstrap overrides        # Static assets
+   └── images/
 ├── src/
-│   └── pages/
-│       └── index.astro
+│   ├── components/  # Reusable UI components
+│   ├── layouts/     # Page layouts
+│   ├── pages/       # Site pages
 └── package.json
-```
 
 Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
