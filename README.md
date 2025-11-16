@@ -1,4 +1,4 @@
-# Astro Starter Kit: Minimal
+https://tenzinchoten.github.io/TIBCERT-01/
 
 ```sh
 npm create astro@latest -- --template minimal
